@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="./css/reset.css" rel="stylesheet" type="text/css">
+  <link href="./css/po.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="./script/po.js"></script>
+  <script>
+
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <ul class="me">
+      <li>&nbsp;모든 동물과 친한<br><strong>카피바라</strong>같은</li>
+      <li>Publisher</li>
+      <li>kyoung ho Kim</li>
+      </ul>
+    <ul class="abil">
+      <li>Ps</li>
+      <li>Ai</li>
+      <li>XD</li>
+      <li>html</li>
+      <li>css</li>
+      <li>jQuery</li>
+    </ul>
+
+    <ul class="tell">
+      <li>Tell : 010-2208-0183</li>
+      <li>Email : zzrudgh@naver.com</li>
+    </ul>
+    <div class="shadow"><img src="./image/Capybara.png" alt="사진"></div>
+  </header>
+ 
+
+  <!-- 슬라이드 -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="mn">
+        <i class="fas fa-angle-left"></i>
+      </div>
+
+      <div class="swiper-slide"><img src="./image/di.png" alt="">
+        <dl class="sl">
+          <dt>
+            <i class="fa-solid fa-display"></i>
+            <i class="fa-solid fa-laptop"></i>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </dt>
+          <dd>Deardahlia(리뉴얼)</dd>
+          <dd>
+            <a href="https://rud106.github.io/Deardahlia/">바로가기</a>
+            <a href="./image/ab01.jpg" class="detail">상세페이지</a>
+          </dd>
+        </dl>
+      </div>
+
+      <div class="swiper-slide"><img src="./image/po.png" alt="">
+        <dl class="sl">
+          <dt>
+            <i class="fa-solid fa-display"></i>
+          </dt>
+          <dd>POCARISWEAT(리뉴얼)</dd>
+          <dd>
+            <a href="https://rud106.github.io/POCARISWEAT/">바로가기</a>
+            <a href="./image/ab02.jpg" class="detail">상세페이지</a>
+          </dd>
+        </dl>
+      </div>
+
+      <div class="swiper-slide"><img src="./image/mo.png" alt="">
+        <dl class="sl">
+          <dt>
+            <i class="fa-solid fa-display"></i>
+          </dt>
+          <dd>MOKHWCI LOUNGE(제작중)</dd>
+          <dd>
+            <a href="https://rud106.github.io/MOKHWCI-LOUNGE/">바로가기</a>
+            <a href="#" class="detail">상세페이지</a>
+          </dd>
+        </dl>
+      </div>
+
+      <div class="swiper-slide"><img src="./image/4.jpg" alt="">
+        <dl class="sl">
+          <dt>
+            <i class="fa-solid fa-display"></i>
+            <i class="fa-solid fa-laptop"></i>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </dt>
+          <dd>(제작중)</dd>
+          <dd>
+            <a href="#">바로가기</a>
+            <a href="#" class="detail">상세페이지</a>
+          </dd>
+        </dl>
+      </div>
+
+    </div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      centeredSlides: true,
+      spaceBetween: 30,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
