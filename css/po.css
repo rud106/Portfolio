@@ -41,8 +41,6 @@ header > h1, .me,.abil{
   text-align: center;
   font-size: 18px;
   left:300px;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -60,8 +58,8 @@ header > h1, .me,.abil{
 .swiper-slide img {
   position:relative;
   display: block;
-  width: 700px;
-  height: 800px;
+  width: 800px;
+  height: 600px;
   object-fit: cover;
   filter:grayscale(100%);
   transition:0.3s;
@@ -79,8 +77,8 @@ header > h1, .me,.abil{
   transition:1.0s;
   background:rgba(4, 4, 4, 0.7);
   width:100%;
-  height:890px;
-  top:-75%;
+  height:780px;
+  top:-50%;
   opacity:0;
   line-height:40px;
 }
